@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.navbar-nav {
+    float: left;
+}
+
+h1 {
+    padding-top: 80px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #000;
+}
+
+p {
+    margin: 0px 200px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 1000px;
+    display: block;
+    margin: 0px auto;
+}
+
+.cara {
+    max-width: 500px;
+    
+}
+
+.nav-link {
+    border-radius: 10px;
+}
+.nav-link:hover {
+    background-color: #000077;
+}
