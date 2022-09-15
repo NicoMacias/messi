@@ -4,10 +4,12 @@
   }
 
 .navbar-nav {
-    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
-h1 {
+.titulo {
     padding-top: 80px;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
@@ -34,5 +36,14 @@ img {
     border-radius: 10px;
 }
 .nav-link:hover {
-    background-color: #000077;
+    background-color: #86fa02;;
+    color: #000023;
+}
+
+.navbar-brand:hover {
+    color: #86fa02;
+}
+
+nav {
+    background-color: #000023;
 }
