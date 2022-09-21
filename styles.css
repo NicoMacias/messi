@@ -1,12 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-  }
-
-.navbar-nav {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
 }
 
 .titulo {
@@ -16,24 +10,13 @@
     color: #000;
 }
 
-p {
-    margin: 0px 200px;
-    margin-bottom: 20px;
-}
-
 img {
-    width: 1000px;
-    display: block;
-    margin: 0px auto;
-}
-
-.cara {
-    max-width: 500px;
-    
+    width: 100%;
 }
 
 .nav-link {
     border-radius: 10px;
+    color: #fff;
 }
 .nav-link:hover {
     background-color: #86fa02;;
@@ -46,4 +29,25 @@ img {
 
 nav {
     background-color: #000023;
+}
+
+footer {
+    font-weight: 300;
+	display: flex;
+	justify-content: space-evenly;
+	background: #000023;
+}
+
+.footer > p {
+    margin: 1rem;
+    color: #fff;
+}
+
+.footer > p > a {
+    text-decoration: none;
+    color: #86fa02;  
+}
+
+.logo-footer {
+    width: 20px;
 }
